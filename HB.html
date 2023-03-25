@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<style>
+    
+    body{
+        background-color: black;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+      height: 30%;
+    }
+    h1{
+        color: palevioletred;
+        /* border-color: white;
+        border-style:dotted; */
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-family: "Alex brush";
+       text-align: center;
+       /* border-right-width: 2%; */
+    }
+       
+  button{
+  text-align: center;
+  font-family: 'Alex Brush'; 
+  font-size: 30px;
+  color: palevioletred;
+  border: none;
+  background-color: black;
+ }
+ a{
+            text-align: center;
+            font-family: 'Alex Brush'; font-size: 30px;
+            color: palevioletred;
+            
+        }
+
+#img2{
+    border-radius: 30px;
+    width: 10%;
+    height: 10%;
+}
+#img{
+    border-radius: 30px;
+    width: 20%;
+    height: 20%;
+}
+#img3{
+    border-radius: 30px;
+    width: 20%;
+    height: 20%;
+}
+
+#img4{
+    border-radius: 30px;
+    width: 10%;
+    height: 10%;
+    float: right;
+}
+#img5{
+    border-radius: 30px;
+    width: 10%;
+    height: 10%;
+    float: left;
+}
+
+#btn{
+    font-size: 17px;
+   
+}
+
+
+
+#vid{
+    border-radius: 30px;
+    height: 30%;
+    width: 30%;
+   
+}
+</style>
+
+<body>
+    <br>
+    <img id="img" src="img/love.jpg">  <img  id="img4"  src="img/hugging.gif"> <img  id="img5"  src="img/good-night.gif"><br>
+    <h1 id="h12"> Happy Birthday My Ginger <br> I look forward to spend the rest of my life with you 💕 💕 </h1> <br>
+
+
+    <hr> <br>
+   <center>
+    <button id="btn" onclick="playVid()" type="button">Play </button>
+    <button  id ="btn" onclick="pauseVid()" type="button">Pause</button><br>  
+   
+      <br> <br>
+      <video  id="vid" >
+          <source src="img/vid.mp4" type="video/mp4">
+          <source src="img/vid.mp4" type="video/ogg">
+        </video>
+
+   </center>
+    <br> <br>
+      <hr> <br>
+      <br>
+      <br>
+    <img  id="img2" src="img/cute-cat.gif">  <br>
+    <button id="btn"  text-align="center" onclick="print()"> Print this page  </button><br>
+    <a href="teddy.html"> Go Back </a> <br>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
